@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 .clear {
   clear: both;
@@ -31,9 +32,12 @@
 }
 
 .links a {
-  color:black;
+  color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+    font-family: 'fira_sansregular';
+      font-weight: bold;
+
 }
 
 header {
@@ -42,4 +46,18 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+    font-family: 'fira_sansmedium';
+  font-weight: bold;
+    font-size: 48px;
+
+  letter-spacing: -1.5px;
+}
+
+h2 {
+    font-family: 'fira_sansregular';
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
